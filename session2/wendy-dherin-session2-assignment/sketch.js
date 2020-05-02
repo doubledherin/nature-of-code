@@ -13,6 +13,9 @@ function setup() {
 
 function draw() {
   background(0)
+  textSize(32)
+  text('Press "b" to blow bubbles', 70, 40)
+  fill(255)
   liquid.display()
   drawStraw()
 
